@@ -15,22 +15,29 @@
 
 // 1.3
 
-var caminho = "5km";
-var corro = "2Km";
+// var caminho = "5km";
+// var corro = "2Km";
 
-if (caminho === "5km" && corro === "2Km") {
-  console.log("passo o di bem");
-}
+// if (caminho === "5km" && corro === "2Km") {
+//   console.log("passo o di bem");
+// }
 
-var levanto = "cedo";
+// var levanto = "cedo";
 
-if (levanto === "cedo" || levanto === "antes das 8h") {
-  console.log("saio tranquilo");
-}
+// if (levanto === "cedo" || levanto === "antes das 8h") {
+//   console.log("saio tranquilo");
+// }
 
-var trabalhoTerminado = false;
-var compromisso = false;
+// var trabalhoTerminado = false;
+// var compromisso = false;
 
-if (!trabalhoTerminado || !compromisso) {
-  console.log("saio tarde");
-}
+// if (!trabalhoTerminado || !compromisso) {
+//   console.log("saio tarde");
+// }
+
+// desafio
+
+var hora = 1;
+var minutos = 0;
+
+hora > 0 ? (minutos = hora * 60) : (minutos = 60);
