@@ -35,7 +35,7 @@
 //   console.log("saio tarde");
 // }
 
-// desafio 1.3
+// desafio tenario
 
 var hora = 1;
 var minutos = 0;
