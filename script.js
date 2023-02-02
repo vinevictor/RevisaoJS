@@ -35,7 +35,7 @@
 //   console.log("saio tarde");
 // }
 
-// desafio
+// desafio 1.3
 
 var hora = 1;
 var minutos = 0;
