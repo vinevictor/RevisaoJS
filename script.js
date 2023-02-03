@@ -37,7 +37,60 @@
 
 // desafio tenario
 
-var hora = 1;
-var minutos = 0;
+// var hora = 1;
+// var minutos = 0;
 
-hora > 0 ? (minutos = hora * 60) : (minutos = 60);
+// hora > 0 ? (minutos = hora * 60) : (minutos = 60);
+
+// 1.4
+
+var lista = [12, 6, 9, 42, 11, 102, 44, 15];
+var soma = 0;
+
+for (var i = 0; i < lista.length; i++) {
+  soma += lista[i];
+}
+console.log(soma);
+
+soma = 0;
+
+var contador = 0;
+while (contador < lista.length) {
+  soma += lista[contador];
+  contador++;
+}
+console.log(soma);
+
+var soma = 0;
+var contador = 0;
+
+do {
+  soma += lista[contador];
+  contador++;
+} while (contador < lista.length);
+
+console.log(soma);
+var teste = true;
+for (var i = 0; i < lista.length; i++) {
+  for (var x = 2; x < lista[i]; x++) {
+    if (lista[i] % x == 0 || lista[i] % (x + 1) == 0) {
+      break;
+    } else {
+      teste = false;
+    }
+  }
+  console.log(lista[i]);
+  if (!teste) {
+    break;
+  }
+}
+
+contador = 0;
+while (contador < lista.length) {
+  if (lista[contador] >= 40 && lista[contador] <= 50) {
+    contador++;
+    continue;
+  }
+  console.log(lista[contador]);
+  contador++;
+}
